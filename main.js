@@ -4,7 +4,7 @@ let trackSong
 function searchFor (formInput) {
   let users = []
 
-  fetch(`http://api.soundcloud.com/users/?client_id=8538a1744a7fdaa59981232897501e04&q=${formInput}`, {
+  fetch(`https://api.soundcloud.com/users/?client_id=8538a1744a7fdaa59981232897501e04&q=${formInput}`, {
     })
     .then( function(r) {
       return r.json()
